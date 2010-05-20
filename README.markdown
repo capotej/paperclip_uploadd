@@ -2,8 +2,13 @@
 
 Plugin for using Paperclip with [Uploadd](http://github.com/capotej/paperclip_uploadd) as a backend
 
-### Installation
 
+
+
+### Installation
+    
+    config.gem "httpclient"
+    rake gems:install
     script/plugin install git://github.com/capotej/paperclip_uploadd
 
 ### Options (all required)
