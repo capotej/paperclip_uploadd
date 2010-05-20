@@ -6,13 +6,14 @@ Plugin for using Paperclip with [Uploadd](http://github.com/capotej/paperclip_up
 
     script/plugin install git://github.com/capotej/paperclip_uploadd
 
-### Usage
-Just set `:storage` to `::Upload` and you should be set, see below for options
-
-     has_attached_file :avatar, :server => "http://uploadd.serbers.com:3000", :secret => "redrum", :cdn => "http://cdn.mysite.com/files"
-
 ### Options
 
     `:server` (required) url and port of your uploadd server
     `:cdn` (required) document root of your uploadd's `UPLOAD_DIR`
     `:secret` (required) the secret you set in `SECRET` in uploadd
+    `:storage` (required) set to `::Uploadd`
+
+### Example
+
+     has_attached_file :avatar, :server => "http://uploadd.serbers.com:3000", :secret => "redrum", :cdn => "http://cdn.mysite.com/files"
+
