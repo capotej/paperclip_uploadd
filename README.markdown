@@ -1,6 +1,6 @@
 # paperclip_uploadd
 
-Plugin for using Paperclip with [Uploadd](http://github.com/capotej/paperclip_uploadd) as a backend
+Plugin for using Paperclip with [Uploadd](http://github.com/capotej/uploadd) as a backend
 
 
 
