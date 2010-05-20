@@ -3,7 +3,9 @@
 Plugin for using Paperclip with [Uploadd](http://github.com/capotej/uploadd) as a backend
 
 
-
+### Dependencies
+    paperclip
+    uploadd server running
 
 ### Installation
     
