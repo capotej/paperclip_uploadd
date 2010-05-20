@@ -20,5 +20,5 @@ Plugin for using Paperclip with [Uploadd](http://github.com/capotej/paperclip_up
 
 ### Example
 
-     has_attached_file :avatar, :server => "http://uploadd.serbers.com:3000", :secret => "redrum", :cdn => "http://cdn.mysite.com/files"
+     has_attached_file :avatar, :storage => ::Uploadd, :server => "http://uploadd.serbers.com:3000", :secret => "redrum", :cdn => "http://cdn.mysite.com/files"
 
