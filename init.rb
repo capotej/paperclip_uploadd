@@ -6,7 +6,7 @@ module ::Uploadd
       addr = @options[:server] || 'http://127.0.0.1:8080'
       secret = @options[:secret] || ''
       cdn_url = @options[:cdn] || 'http://127.0.0.1:8080/files'
-      @path = ":class/:attachment/:id_partition/:style.:extension"
+      @path = @options[:path] || ":class/:attachment/:id_partition/:style.:extension"
       if @url == base.class.default_options[:url]
         @url = "#{cdn_url}/#{@path}"
       end
